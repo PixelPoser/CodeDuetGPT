@@ -25,29 +25,43 @@ However, the use of two independent GPT-4 iterations allows for a more seamless 
 ## Quick Start
 
 - Ensure you have Git installed on your machine. You can download it from [Git Downloads](https://git-scm.com/downloads).
+- You need an OpenAI key
 
 ## Clone the Repository
 
 1. Open a terminal or command prompt.
-2. Navigate to the directory where you want to clone the repository.
-3. Run the following command:
+2. Install Homebrew:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+3. Install Python3:
+   ```bash
+   brew install python3
+4. Navigate to the directory where you want to clone the repository.
+5. Run the following command to clone the repository:
    ```bash
    git clone https://github.com/PixelPoser/CodeDuetGPT.git
-3. Run the following command:
+6. Install Required Libraries
+   ```bash
+   pip3 install openai
+   pip3 install colorama
+7. Then run this:
+   ```bash
+   cd codeduetgpt
+8. Run the following command:
    ```bash
    python3 codeduetgpt.py
-4. Follow the instructions. You need to write your prompt on a txt or rtf file.
+9. Follow the instructions. You need to write your prompt on a txt or rtf file.
 
-6. Then you will input the directory of that prompt txt file when asked (MacOS Option-Command-C, Windows Ctrl + Shift + C).
+10. Then you will input the directory of that prompt txt file when asked (MacOS Option-Command-C, Windows Ctrl + Shift + C).
    
-8. Then you input how many rounds you want it to run for.
+11. Then you input how many rounds you want it to run for.
    
-9. After it finishes running the coding conversations, you will be prompted to export your conversation history as a txt file.
+12. After it finishes running the coding conversations, you will be prompted to export your conversation history as a txt file.
     
-10. Now you have a transcript with all your code!
+13. Now you have a transcript with all your code!
     
-11. Understand that I have no idea how to code, and I wrote this whole program using endless prompting into GPT-4 Code Interpreter and haphazardly copying and pasting into Visual Studio Code.
+14. Understand that I have no idea how to code, and I wrote this whole program using endless prompting into GPT-4 Code Interpreter and haphazardly copying and pasting into Visual Studio Code.
     
-12. The irony of not knowing how to code and building a code-building program to accelerate my laziness is not lost on me.
+15. The irony of not knowing how to code and building a code-building program to accelerate my laziness is not lost on me.
     
-13. CodeDuetGPT was funded in part by legally prescribed Adderall and white Monster Energy drinks I bought in bulk.
+16. CodeDuetGPT was funded in part by legally prescribed Adderall and white Monster Energy drinks I bought in bulk.
