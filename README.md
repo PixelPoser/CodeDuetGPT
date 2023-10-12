@@ -3,7 +3,7 @@
 Dual Independent-Agent Conversation Model for Enhanced Contextual and Creative Capacity for Automated Self-Recursive Code Generation
 
 ## Overview
-<font size="5">Large TextIn the world of AI-driven automated code generation, the desire for constent converstaional understanding is ever-present. The ability to retain and leverage context is key to successful automated code generation. 
+<font size="5">In the world of AI-driven automated code generation, the desire for constent converstaional understanding is ever-present. The ability to retain and leverage context is key to successful automated code generation. 
 
 CodeDuetGPT's unique dual-agent model harnesses the power of two seperate GPT-4 iterations engaging in a dynamic code building session. This approach stands in contrast to the alternate method of using a single GPT-4 32k model simulating two agents conversing. By employing two distinct GPT-4 agents, we achieve a notable advancement in contextual understanding.
 
