@@ -33,4 +33,8 @@ However, the use of two independent GPT-4 iterations allows for a more seamless 
 3. Run the following command:
    ```bash
    git clone https://github.com/PixelPoser/CodeDuetGPT.git
-
+3. Run the following command:
+   ```bash
+   python3 codeduetgpt.py
+4. Follow the instructions. You need to write a txt file with your prompt.  Then you will input the directory of that prompt txt file when asked.  Then you decide how many rounds you want it to run for. After it finishes running the coding conversations, you will be prompted to export your conversation history as a txt file.
+Now you have a transcript with all your code!
