@@ -9,7 +9,7 @@ CodeDuetGPT's unique dual-agent model harnesses the power of two seperate GPT-4 
 
 "But what about the GPT4 32K API! Simulate two agents on there!"
 
-According to the paper [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)) it states that "performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts"
+According to the paper [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) it states that "performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts"
 
 Therefore, a single GPT-4 32K model simulating two agents will likely encounter limitations in retaining and recalling prior parts of the conversation regardless of its lengthy context length.  This will compromise the automated agents' focus and ability to build relevant code. 
 
