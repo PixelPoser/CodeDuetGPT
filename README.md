@@ -1,5 +1,7 @@
 # CodeDuetGPT
 
+Dual Independent-Agent Conversation Model for Enhanced Contextual and Creative Capacity for Automated Self-Recursive Code Generation
+
 # Overview
 In the world of AI-driven automated code generation, the desire for constent converstaional understanding is ever-present. The ability to retain and leverage context is key to successful automated code generation. 
 
