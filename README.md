@@ -19,3 +19,18 @@ Therefore, a single GPT-4 32K model simulating two agents will likely encounter 
 However, the use of two independent GPT-4 iterations allows for a more seamless and comprehensive contextual flow for reasonably long code building sessions. This improved, seperated contextual memory ensures that past dialogue segments remain readily accessible to each iteration, leading to enhanced coherence and relevance in code generation. It enables CodeDuetGPT to excel in scenarios where intricate, multi-step discussions and precise contextual referencing are imperative for generating high-quality code.
 
 [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
+
+
+
+## Quick Start
+
+- Ensure you have Git installed on your machine. You can download it from [Git Downloads](https://git-scm.com/downloads).
+
+## Clone the Repository
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
+   ```bash
+   git clone https://github.com/PixelPoser/CodeDuetGPT.git
+
