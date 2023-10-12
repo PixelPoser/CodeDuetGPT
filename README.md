@@ -51,7 +51,3 @@ However, the use of two independent GPT-4 iterations allows for a more seamless 
 12. The irony of not knowing how to code and building a code-building program to accelerate my laziness is not lost on me.
     
 13. CodeDuetGPT was funded in part by legally prescribed Adderall and white Monster Energy drinks I bought in bulk.
-
-
-
-Made by WarrenCain
