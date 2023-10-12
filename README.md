@@ -37,10 +37,17 @@ However, the use of two independent GPT-4 iterations allows for a more seamless 
    ```bash
    python3 codeduetgpt.py
 4. Follow the instructions. You need to write your prompt on a txt or rtf file.
-5. Then you will input the directory of that prompt txt file when asked (MacOS Option-Command-C, Windows Ctrl + Shift + C).
-6. Then you input how many rounds you want it to run for.
-7. After it finishes running the coding conversations, you will be prompted to export your conversation history as a txt file.
-8. Now you have a transcript with all your code!
-9. Understand that I have no idea how to code, and I wrote this whole program using endless prompting into GPT-4 Code Interpreter and haphazardly copying and pasting into Visual Studio Code.
-10. The irony of not knowing how to code and building a code-building program to accelerate my laziness is not lost on me.
-11. CodeDuetGPT was funded in part by legally prescribed Adderall and white Monster Energy drinks I bought in bulk.
+
+6. Then you will input the directory of that prompt txt file when asked (MacOS Option-Command-C, Windows Ctrl + Shift + C).
+   
+8. Then you input how many rounds you want it to run for.
+   
+9. After it finishes running the coding conversations, you will be prompted to export your conversation history as a txt file.
+    
+10. Now you have a transcript with all your code!
+    
+11. Understand that I have no idea how to code, and I wrote this whole program using endless prompting into GPT-4 Code Interpreter and haphazardly copying and pasting into Visual Studio Code.
+    
+12. The irony of not knowing how to code and building a code-building program to accelerate my laziness is not lost on me.
+    
+13. CodeDuetGPT was funded in part by legally prescribed Adderall and white Monster Energy drinks I bought in bulk.
