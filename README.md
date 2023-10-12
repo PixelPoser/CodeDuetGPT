@@ -1,4 +1,4 @@
-![GitHub Logo](/images/CodeDuetGPT_Logo.png)
+![GitHub Logo](/images/CodeDuetGPT_Logo.jpeg)
 
 # CodeDuetGPT
 
