@@ -210,7 +210,8 @@ class ChatSession:
         )
         self.config["max_turns"] = int(input())
 
-        openai.api_key = input(colored("\nPlease enter your OpenAI API key: ", "cyan"))
+        api_key = input(colored("\nPlease enter your OpenAI API key: ", "cyan"))
+        self.client = OpenAI(api_key=api_key)  # Ensure this line is correct
 
         prompt = self.get_prompt_from_user_or_file()
         print(f"Prompt accepted: {prompt[:100]}...")
