@@ -6,6 +6,9 @@
 Dual Independent-Agent Conversation Model for Enhanced Contextual and Creative Capacity for Automated Self-Recursive Code Generation
 
 ## Overview
+
+(Update 7/23/24: I have updated this script to utilize the GPT-4-Mini model with 16,384 token output. Incredible how the models astronogmically improved improved since I wrote this almost a year ago. Enjoy this dinosaur of a script.  Readme below remains the same for record purposes)
+
 In the world of AI-driven automated code generation, the desire for consistent conversational understanding is ever-present. The ability to retain and leverage context is key to successful automated code generation. 
 
 CodeDuetGPT's unique dual-agent model harnesses the power of two separate GPT-4 iterations engaging in a dynamic code building session. This approach stands in contrast to the alternate method of using a single GPT-4 32k model simulating two agents conversing. By employing two distinct GPT-4 agents, we achieve a notable advancement in contextual understanding.
