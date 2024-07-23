@@ -121,8 +121,8 @@ class ChatLogic:
         self.env = env
         self.config = config
         self.model = self.config.get("model", "gpt-4o-mini")
-        self.temperature = self.config.get("temperature", 0.4)
-        self.max_tokens = self.config.get("max_tokens", 4000)
+        self.temperature = self.config.get("temperature", 0.3)
+        self.max_tokens = self.config.get("max_tokens", 16384)
         self.top_p = self.config.get("top_p", 1)
         self.frequency_penalty = self.config.get("frequency_penalty", 0)
         self.presence_penalty = self.config.get("presence_penalty", 0)
