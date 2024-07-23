@@ -168,7 +168,7 @@ class ChatSession:
         self.documents = None
 
     def get_prompt_from_user_or_file(self):
-        choice = input("Write your prompt on a txt file.  Copy and paste the file's directory now.  ​Click on the file, then for MacOS Option-Command-C, Windows Ctrl + Shift + C.  Then paste here.: ")
+        choice = input("Write your prompt on a txt file.  Copy and paste the file's directory now.  ​Click on the file, then for MacOS Option-Command-C, Windows Ctrl + Shift + C.  Then paste here: ")
         if choice.strip().lower() == 'n':
             initial_prompt = input(colored("Please provide the initial prompt (cannot be empty): ", "cyan"))
             while not initial_prompt.strip():
